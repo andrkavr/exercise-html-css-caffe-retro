@@ -1,15 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
+
+  font-family: "Spirax", sans-serif;
+  background-color: black;
+  opacity: 70%;
+  position: fixed;
+  width: 100%;
+  margin-top: 1%;
+  padding-bottom: 1rem;
+  font-size: 2rem;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .hot-section,
@@ -19,8 +30,57 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hot-section {
   background-image: url("./assets/hot.jpg");
+  padding-top: 15%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+h1 {
+  font-family: "Spirax", sans-serif;
+  font-size: 7rem;
+  color: darkred;
+}
+
+.hot-section p {
+  font-family: "Poiret One", sans-serif;
+  background-color: darkred;
+  color: #fff;
+  opacity: 80%;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  font-size: 1.5rem;
+}
+
+.hot-section p:nth-of-type(1) {
+  margin-right: 11%;
+}
+
+.hot-section p:nth-of-type(2) {
+  padding: 0.7rem 9rem 0.7rem 9rem;
+  margin-left: 10%;
+}
+
+table {
+  font-family: "Poiret One", sans-serif;
+  max-width: 50%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 70%;
+  color: #fff;
+  padding: 0.5rem 1rem 0.5rem 3rem;
+  font-size: 1.3rem;
+}
+
+tr td:nth-child(2) {
+  width: 20%;
 }
 
 .juicy-section {
