@@ -155,7 +155,7 @@ tr td:nth-child(2) {
     background-position: center;
   }
 
-  .hot-section h1 {
+  h1 {
     font-size: 5.5rem;
   }
 
@@ -176,5 +176,25 @@ tr td:nth-child(2) {
 
   .hot-section tr td:nth-child(1) {
     width: 50%;
+  }
+
+  .juicy-section {
+    padding-top: 50%;
+    background-position: center;
+  }
+
+  .juicy-section h1 {
+    font-size: 4rem;
+  }
+
+  .juicy-section p:nth-of-type(1) {
+    padding: 1rem 2rem;
+    margin: 0 2.5rem;
+    text-align: center;
+  }
+
+  .juicy-section table {
+    max-width: 80%;
+    padding: 0.5rem 1rem;
   }
 }
